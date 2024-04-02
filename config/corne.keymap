@@ -14,7 +14,12 @@
 
         activatelayer3 {
             bindings = <&mo 3>;
-            key-positions = <38 39>;
+            key-positions = <38 39 37>;
+        };
+
+        resetLayers {
+            bindings = <&tog 0>;
+            key-positions = <39 38>;
         };
     };
 
