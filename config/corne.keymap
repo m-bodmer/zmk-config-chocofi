@@ -82,10 +82,10 @@
 
         symbol {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION    &kp AT        &kp HASH       &kp DOLLAR        &kp PERCENT        &kp CARET      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH  &kp BACKSLASH   &kp BACKSPACE
-&kp TILDE  &kp SQT            &kp ASTERISK  &kp PLUS       &kp EQUAL         &kp EXCLAMATION    &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp UNDERSCORE  &trans
-&trans     &kp DOUBLE_QUOTES  &trans        &kp LESS_THAN  &kp GREATER_THAN  &trans             &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &kp QUESTION    &trans
-                                            &trans         &trans            &trans             &trans         &trans                &trans
+&kp GRAVE  &kp EXCLAMATION    &kp AT        &kp HASH       &td LC(LG(LS(N4))) DOLLAR  &kp PERCENT        &kp CARET      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH  &kp BACKSLASH   &kp BACKSPACE
+&kp TILDE  &kp SQT            &kp ASTERISK  &kp PLUS       &kp EQUAL                  &kp EXCLAMATION    &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp UNDERSCORE  &kp ENTER
+&trans     &kp DOUBLE_QUOTES  &trans        &kp LESS_THAN  &kp GREATER_THAN           &trans             &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &kp QUESTION    &trans
+                                            &trans         &to 0                      &sk LEFT_SHIFT     &to 1          &trans                &sk RALT
             >;
         };
 
